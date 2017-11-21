@@ -5,4 +5,7 @@
     <type name="Magento\OfflinePayments\Model\Cashondelivery">
         <plugin name="cashondeliveryplug" type="Ethos\GlobalFixes\Plugin\CashondeliveryPlug" disabled="false" sortOrder="10"/>
     </type>
+    <type name="\Magento\Framework\Locale\ResolverInterface">
+	<plugin name="mage_localeresolver_reload" type="Magento\Framework\Translate\Locale\Resolver\Plugin" sortOrder="1" disabled="false"/>
+    </type>
 </config>
